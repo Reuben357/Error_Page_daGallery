@@ -1,0 +1,150 @@
+body{
+    padding: 0px;
+	margin: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand img
+{
+    width: 140px;
+    height: 180px;
+}
+nav ul
+{
+    margin-left: 80px;
+}
+nav ul li a 
+{
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+nav h6{
+  display: none;
+}
+nav .search{
+  display: none;
+}
+nav .cart{
+  display: none;
+}
+nav form
+{
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar .navbar-toggler{
+    float: left;
+    margin-top: 20px;
+  }
+  .navbar-brand img{
+    display: none;
+  }
+  nav h6{
+    display: inline;
+    font-size: 20px;
+  }
+  nav a.search{
+    float: left;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+  nav a.cart{
+    float: right;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+  .main .small{
+    display: none;
+  }
+  #cart{
+    display: none;
+  }
+}
+
+#user
+{
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 15px;
+}
+#cart
+{
+    margin-top: 50px;
+    padding: 20px;
+}
+.error_img
+{
+   width: 720px;
+   height: 790px;
+   margin-left: 354px;
+}
+.container
+{
+  text-align: center;
+  user-select: none;
+}
+.container h1
+{
+  font-size: 8rem;
+}
+.img-fluid
+{
+  margin-left: 30%;
+}
+.bottom-left
+{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 37%;
+}
+
+.mess h1
+{
+  font-size: 120px;
+  user-select: none;
+  color: grey;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+.image p
+{
+  margin: 0;
+  margin-left: 35%;
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 800px){
+  .bottom-left
+  {
+    margin-left: 45%;
+    top: 70%;
+  }
+  .image p
+  {
+    margin-left: 40%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px){
+  .bottom-left
+  {
+    margin-left: 50%;
+    top: 100%;
+  }
+  .image p
+  {
+    margin-left: 40%;
+    padding: 10px;
+  }
+}
